@@ -1,0 +1,36 @@
+{
+  "name": "echoService",
+  "description": "A service that echoes back what it receives in JSON format.",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha -R spec",
+    "testIntegration": "mocha -R spec ./test/integration/*js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "Express4"
+  ],
+  "author": "Anders Weijnitz",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "~4.16.0",
+    "formidable": "^1.0.15",
+    "get-routes": "^0.2.0",
+    "hjs": "~0.0.6",
+    "hogan.js": "^3.0.2",
+    "lodash.has": "^4.5.2",
+    "log4js": "^0.6.16",
+    "promised-io": "^0.3.4",
+    "static-favicon": "~1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4",
+    "superagent": "^3.8.2"
+  }
+}
