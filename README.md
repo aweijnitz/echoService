@@ -5,7 +5,7 @@ A quick webservice to echo back request info, written in Node.js.
 
 Invoke the service. Get JSON back.
 
-![An example request](https://github.com/aweijnitz/biblicalNamesWebhook/raw/master/doc/echoService-example.png "An Example")
+![An example request](https://github.com/aweijnitz/echoService/raw/master/doc/echoService-example.png "An Example")
 
 
 ## Install
